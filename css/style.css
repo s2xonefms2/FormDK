@@ -1,13 +1,10 @@
-* {
-    margin: auto;
-    height: auto;
-}
-
 body {
     text-align: center;
+    width: max-content;
+    margin: auto;
 }
 
-.form {
+.forma {
     max-width: 574px;
     max-height: 801px;
     background-color: #63738a;
