@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="form container-fluid">
+        <form action="" name="myForm" onsubmit="return(validate());">
+            <div id="all">
+                <div class="title">
+                    <h1>Register</h1>
+                </div>
+                <h3>Create your account. It's free and only takes a minute.</h3>
+                <div class="name">
+                    <input type="text" name="FirstName" style="margin-left:0;" id="FirstName" placeholder="FirstName" />
+                    <input type="text" name="LastName" style="margin-right:0;" id="LastName" placeholder="LastName" />
+                </div>
+                <div class="email">
+                    <input type="text" name="Email" id="Email" placeholder="Email" />
+                </div>
+                <div class="pass">
+                    <input type="password" name="password" id="password" placeholder="Password" />
+                </div>
+                <div class="cpass">
+                    <input type="password" name="CFpassword" id="CFpassword" placeholder="Confirm Password" />
+                </div>
+                <div class="sdt">
+                    <input type="text" name="phone" id="phone" placeholder="Phone" />
+                </div>
+                <div class="check">
+                    <input type="checkbox" id="alo" name="vehicle1" value="Bike"> I accept the
+                    <a href="#">Terms of Use</a>&
+                    <a href="#">Privacy Policy</a>
+                </div>
+                <button class="btn">Register Now</button>
+            </div>
+        </form>
+        <p class="title-end">Already have an account? <a href="#">Sign in</a></p>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

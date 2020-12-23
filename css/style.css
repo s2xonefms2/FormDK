@@ -1,0 +1,112 @@
+* {
+    margin: auto;
+    height: auto;
+}
+
+body {
+    text-align: center;
+}
+
+.form {
+    max-width: 574px;
+    max-height: 801px;
+    background-color: #63738a;
+    margin-top: 50px;
+}
+
+#all {
+    width: 400px;
+    height: 600px;
+    background-color: #f2f3f7;
+    margin-top: 40px;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+p {
+    size: 16px;
+}
+
+h1 {
+    color: rgb(113 121 129 / 56%);
+}
+
+h1:before,
+h1:after {
+    content: "";
+    display: inline-block;
+    width: 24%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 1px solid;
+}
+
+h1:after {
+    margin: 0 -55% 0 .5em;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #e9d8f4;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+input:focus {
+    border: 3px solid #58257b;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.name input {
+    width: 165px;
+}
+
+.check {
+    display: flex;
+    justify-self: start;
+    margin: 20px auto;
+}
+
+.check input {
+    height: 15px;
+    width: 20px;
+    margin: 0;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.check a {
+    color: #7db785;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #7db785;
+}
+
+.title-end {
+    margin: 20px auto;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.title-end a {
+    color: #ffffff;
+}
